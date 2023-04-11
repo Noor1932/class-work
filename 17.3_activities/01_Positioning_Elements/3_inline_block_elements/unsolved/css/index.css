@@ -1,0 +1,9 @@
+.catname{
+  
+  text-align: center;
+
+}
+.img{
+  float: left;
+  display: block-inline;
+}

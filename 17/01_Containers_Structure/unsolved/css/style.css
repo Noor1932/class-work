@@ -1,0 +1,102 @@
+/*  Hi! your going to write styles here in the next couple activities. */
+.swatchone{
+    background:#333366;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+.hexCode{
+    background-color:white;
+    margin:70px;
+    margin-top:3px;
+    margin-left:80px ;
+
+
+}
+.colorcontainer{
+    border-radius:0px 0px 7px 7px;
+    border:black;
+    margin-top:50px;
+}
+
+.swatchtwo{
+    background:#545454;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+.swatchthree{
+    background:#E3E3E3;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+.swatchfour{
+    background:#13A0F6;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+.swatchfive{
+    background:#F84848;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+.swatchsix{
+    background:#FC7705;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+.swatchseven{
+    background:#13A0F6;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+.swatcheight{
+    background:#8ABE48;
+    height: 200px;
+    width: 200px;
+    border-radius:0px 0px 7px 7px;
+    margin:20px;
+
+}
+
+
+.colorcontainer{
+    float: left;
+}
+
+.largelight{
+    font-weight:;
+    font-size:50px;
+    position: absolute;
+    margin-top:400px;
+    
+}
+.sectionhead{
+    position: absolute;
+    margin-top:150%;
+}
