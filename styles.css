@@ -1,0 +1,106 @@
+.flex{
+    padding:10px;
+    
+}
+
+.Noor{
+    background-color:blue;
+    border-radius: 5px;
+    color:white;
+}
+
+.Abdu{
+    background-color:green;
+    border-radius: 5px;
+    color:white;
+}
+
+.Farhia{
+    background-color:blueviolet;
+    border-radius: 5px;
+    color:white;
+}
+
+.Jamal{
+    background-color:cornsilk;
+    border-radius: 5px;
+    color:black;
+}
+
+.Moha{
+    background-color:darkgray;
+    border-radius: 5px;
+    color:black;
+}
+
+
+
+
+
+
+.testimonial-grid{
+display:grid;
+gap:1.5rem;
+grid-template-areas:
+'First'
+'Second'
+'Third'
+'Fourth'
+'Fifth'
+;
+
+}
+
+.flex:nth-child(1){
+    grid-area:First;
+}
+.flex:nth-child(2){
+    grid-area:Second;
+}
+.flex:nth-child(3){
+    grid-area:Third;
+}
+.flex:nth-child(4){
+    grid-area:Fourth;
+}
+.flex:nth-child(5){
+    grid-area:Fifth;
+}
+
+
+@media (min-width:600px){
+    .testimonial-grid{
+        grid-template-areas: 
+        'First First Second Fifth'
+        'Third Fourth Fourth Fifth'
+        
+        ;
+    }
+    
+    
+}
+
+
+/*
+
+One way
+
+
+@media (min-width: 30em){
+    .testimonial-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-col-span-2{
+        grid-column:span 2;
+    }
+
+    .flex:last-child{
+        grid-column-start: 4;
+        grid-row-start:1;
+        grid-row-end:3;
+        /*shorthand
+        grid-row: 1 / 3; start and end
+        */
+     }
+
+}
